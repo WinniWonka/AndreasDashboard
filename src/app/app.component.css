@@ -1,0 +1,91 @@
+
+/* topnav css  */
+.topnav {
+    width: 100%;
+    position: fixed;
+    top:0;
+    left: 200px;
+    overflow: hidden;
+    background-color: #879fe6;
+    border: 1px solid rgb(128, 128, 128);
+}
+
+.topnav a {
+    float: left;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 14px 16px;
+}
+
+.footer {
+    width: 100%;
+    position: fixed;
+    bottom:0;
+    left: 200px;
+    overflow: hidden;
+    background-color: #879fe6;
+    border: 1px solid rgb(128, 128, 128);
+}
+
+.footer a {
+    float: left;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 14px 16px;
+}
+
+.menu {
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #000;
+    display: none;
+}
+/* topnav css  */
+
+/* left sidebar nav  */
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    overflow: auto;
+    background-color: #bdc5de;
+    height: 100%;
+    border: 1px solid rgb(128, 128, 128);
+    padding: 30px 5px;
+    margin: 0px;
+    width: 200px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    padding: 10px 10px;
+    color: #000;
+    text-align: left;
+    display: block;
+}
+
+.sidebar i {
+    padding-right: 10px;
+}
+
+.sidebar .icon {
+    float: right;
+}
+
+/* left sidebar nav  */
+
+/* main-content */
+.main-content {
+    margin-left:230px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 10px 18px;
+    transition: margin-left .5s;
+}
+/* main-content */
